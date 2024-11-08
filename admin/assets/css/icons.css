@@ -1,0 +1,71 @@
+.tx{
+     font-family:"Arial";
+     font-size:15px;
+
+}
+.backButton{
+     height: 100px;
+     width: 100px;
+}
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .product-img {
+        width: 250px;  /* Set fixed width */
+        height: 100px; /* Set fixed height */
+        object-fit: contain;
+         padding: 5px;
+         
+    }
+
+.icon {
+     width: 20px;   
+    height: 20px;  
+    background-size: cover;  
+    display: inline-block; 
+}
+.sideImg {
+     width: 40px;   
+    height: 40px;  
+    background-size: cover;  
+    display: inline-block; 
+}
+.lb
+{
+     font-family:cursive;
+     font-size:20px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.rounded2 {
+     border-radius: 10px !important;
+}
+.c1{
+     background: linear-gradient(to bottom right, #e44a60, #fbd1d5);
+}
+.c2{
+     background: linear-gradient(to bottom right, #EA8D8D, #A890FE);
+     /*#614385 → #516395*/
+     /*#EA8D8D → #A890FE*/
+}
+.c3{
+     background: linear-gradient(to bottom right, #D8B5FF, #1EAE98);
+     /*#D8B5FF → #1EAE98*/
+}
+.sidebar, .sidebar-content
+{
+     background: black !important;
+}
+.sidebar-link, a.sidebar-link
+{
+     background: black !important;
+     text-decoration: none;
+     color: grey;
+}
